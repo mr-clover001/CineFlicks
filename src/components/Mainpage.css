@@ -1,0 +1,157 @@
+
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+
+.movie-app > .row {
+	/* width: 97vw; */
+
+}
+
+
+
+.image-container {
+    
+    width: auto;
+    height:auto;
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 93%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* -------Navbar-------- */
+
+
+.navbar{
+	padding: 3px 12px;
+	display: flex;
+	background-color: rgba(29, 30, 30, 0.484);
+	border-bottom: 1px solid rgba(86, 130, 212, 0.078);
+}
+
+.searchBox{
+    display: flex;
+
+   
+}
+
+.searchBox .btn{
+	
+	background-color:rgb(48, 74, 128);
+	color: #ffffff;
+	border: 2px solid  rgb(48, 74, 128);
+	margin-left: 10px;
+}
+.searchBox .btn:hover{
+	background-color:transparent;
+	color: rgb(60, 92, 159);
+	border: 2px solid rgb(48, 74, 128);
+
+}
+
+
+/* -------------Heading-------------------- */
+
+.heading{
+margin-left: 20px;
+}
+
+.heading h1{
+    color: rgb(86, 130, 212);
+   font-family: 'splash', cursive;
+  font-size: 45px;
+  margin-top: 4px ;
+}
+
+.favHeading {
+	/* background-color: aqua; */
+	color: #141414;
+	border-bottom: 2px solid rgba(86, 130, 212, 0.189);
+}
+
+
+/* ----------movie list------- */
+
+
+
+.poster{
+
+padding: 30px 30px;
+}
+
+.movie-app{
+    margin-top: -22px;
+	box-sizing: border-box;
+    
+}
+
+
+/* ----------------footer----------------- */
+
+.footer{
+	color: #ffffff;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 50px;
+}
+
+.footer .social-medias{
+	padding: 12px 12px;
+	color: grey;
+display: flex;
+justify-content: space-between;
+
+}
+
+.footer .social-medias span:hover{
+	color: rgb(48, 74, 128);
+}
+
+.footer .social-medias span{
+	margin-left: 25px;
+}
+
+.footer .context{
+	font-size: small;
+ display: flex;
+ flex-direction: column;
+ margin-left: 28px;
+}
+.footer .context .firstLine{
+	margin-left: 15px;
+}
+
+.footer .context span{
+	margin-left: 3px
+}
+
+.footer .copyright{
+	font-size: small;
+	color: grey;
+	margin-left: 30px;
+}
