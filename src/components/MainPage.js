@@ -11,7 +11,7 @@ import "./Mainpage.css";
 const MainPage = () => {
   const [movies, setMovies] = useState([]);
   const [favourites, setFavourites] = useState([]);
-  const [searchValue, setSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState("king");
 
   const getMovieRequest = async (searchValue) => {
     const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=ab223b2e`;
